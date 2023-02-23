@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.header, .banner, .footer{
+    background-color: #1F2937;
+}
+
+button,
+.action-call {
+    background-color: #3882F6;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.banner-text > h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.banner-text > p,
+.header-links,
+.footer {
+    color: #E5E7EB;
+}
+
+.info {
+    color: #1F2937;
+}
+
+.info > h3 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.quote > p > strong {
+    font-style: normal;
+    font-weight: 900;
+}
