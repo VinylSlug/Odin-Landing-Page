@@ -1,29 +1,5 @@
-/* Roboto Regular */
-@font-face {
-    font-family: "Roboto";
-    src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Roboto Italic */
-@font-face {
-    font-family: "Roboto";
-    src: url('fonts/roboto/Roboto-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-/* Roboto Bold */
-@font-face {
-    font-family: "Roboto";
-    src: url('fonts/roboto/Roboto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
     font-size: 18px;
 }
@@ -78,7 +54,6 @@ body {
 button,
 .action-call {
     background-color: #3882F6;
-    color: #F9FAF8;
 }
 
 .logo {
