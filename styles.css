@@ -1,92 +1,20 @@
-/* Roboto Regular */
-@font-face {
-    font-family: "Roboto";
-    src: url('fonts/roboto/Roboto-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-/* Roboto Italic */
-@font-face {
-    font-family: "Roboto";
-    src: url('fonts/roboto/Roboto-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-/* Roboto Bold */
-@font-face {
-    font-family: "Roboto";
-    src: url('fonts/roboto/Roboto-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-* {
-    border: 1px solid red;
-}
-
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #F9FAF8;
     font-size: 18px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-h1, h2, h3, h4,
-p {
-    padding: 0;
-    margin: 0;
 }
 
 .header, .banner, .footer{
     background-color: #1F2937;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    padding: 8px;
-}
-
-.header-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    display: flex;
-    gap: 12px;
-}
-
-.banner {
-    padding-top: 18px;
-    padding-bottom: 48px;
-
-    justify-content: center;
-
-    gap: 24px;
-}
-
-.banner-text,
-.banner-image {
-    width: 400px;
-
-    flex: 1;
-
-    
 }
 
 button,
 .action-call {
     background-color: #3882F6;
-    color: #F9FAF8;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: 900;
 }
 
 .banner-text > h2 {
@@ -102,21 +30,6 @@ button,
 
 .info {
     color: #1F2937;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.info-cards {
-    display: flex;
-    justify-content: center;
-
-    gap: 12px;
-}
-
-.card {
-    text-align: center;
 }
 
 .info > h3 {
@@ -130,25 +43,9 @@ button,
     font-style: italic;
     font-size: 36px;
     font-weight: 400;
-
-    padding: 24px;
 }
 
 .quote > p > strong {
     font-style: normal;
     font-weight: 900;
-
-    margin-left: 64px;
-}
-
-.action-call {
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-}
-
-.footer {
-    justify-content: center;
 }
